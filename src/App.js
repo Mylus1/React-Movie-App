@@ -1,5 +1,15 @@
 import React from 'react';
 
-const App = () => <div>Start here!</div>
+//Add GlobalStyle import
+import { GlobalStyle } from './GlobalStyle';
+
+function App() {
+    return(
+        <div className="App">
+            Start here
+            <GlobalStyle />
+        </div>
+    )
+}
 
 export default App;
